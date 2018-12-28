@@ -1,5 +1,5 @@
 /*
-Merge Sort - O(log n)
+Merge Sort - O(n log n)
 */
 
 uArr=[20,13,0,9,2,5,3,6]
