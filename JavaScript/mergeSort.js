@@ -1,8 +1,9 @@
 /*
 Merge Sort - O(n log n)
+Merge sort works by splitting the array in two parts, then sort each half, and it continues to do so recursively till the sort is only between two elements.
 */
 
-uArr=[20,13,0,9,2,5,3,6]
+uArr=[9,7,3,10,4,6,2]
 
 
 function mergeSort(arr){
@@ -33,6 +34,7 @@ function merge(left, right){
     while(right.length){
         result.push(right.shift())
     }
+    console.log(result)
     return result
 }
 
